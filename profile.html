@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/logo-image.png" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/loader.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <title>個人資料</title>
+</head>
+
+<body>
+    <div id="loader"></div>
+    <div id="content">
+        <div id="p">
+            <div class="p_flex">
+                <div class="nav">
+                    <a href="./index.html">
+                        <div class="nav_left_flex">
+                            <img src="./img/logo-image.png" class="nav_logo" alt="logo-image">
+                            <img src="./img/logo-text.png" class="nav_title" alt="logo-text">
+                        </div>
+                    </a>
+
+                    <div class="nav_right_flex">
+                        <img src="./img/bell.png" class="nav_remind">
+                        <img src="./img/logout.png" class="logout" id="signout">
+                    </div>
+                </div>
+            </div>
+            <div class="p_content_flex d-flex justify-content-center flex-wrap">
+                <img src="./img/youngwoman.png" alt="boy" class="profile_img">
+            </div>
+            <div class="p_content_flex d-flex justify-content-center flex-wrap">
+                <div class="card profile_card">
+                    <div class="for-icon">
+                        <a href=""><img src="img/setting.png" alt=""></a>
+                    </div>
+                    <div class="detail">
+                        <div class="row">
+                            <li class="col">姓名：張小花</li>
+                            <li class="col">性別：女</li>
+                        </div>
+                        <div class="row">
+                            <li id="identity" class="col">身分證字號：</li>
+                            <li class="col">生日：1911/10/10</li>
+                        </div>
+                        <div class="row">
+                            <li id="home" class="col">市內電話：</li>
+                            <li id="phone" class="col">手機號碼：</li>
+                        </div>
+                        <div class="row">
+                            <li id="address" class="col">戶籍地址：</li>
+                        </div>
+                        <hr>
+                        <li>居住地址：</li>
+                        <div class="row address">
+                            <div class="area">台北市</div>
+                            <div class="col">100台北市中正區重慶南路一段122號</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+    <script src="./js/firebase.js"></script>
+    <script type="text/javascript">
+        var loader;
+        function loadNow(opacity) {
+            if (opacity <= 0) {
+                displayContent();
+            }
+            else {
+                loader.style.opacity = opacity;
+                window.setTimeout(function () {
+                    loadNow(opacity - 0.05)
+                }, 100);
+            }
+        }
+
+        function displayContent() {
+            loader.style.display = 'none';
+            document.getElementById('content').style.display = 'block';
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            loader = document.getElementById('loader');
+            loadNow(1);
+        });
+    </script>
+</body>
+
+</html>
