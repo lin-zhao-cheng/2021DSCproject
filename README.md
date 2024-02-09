@@ -38,6 +38,6 @@ Solution：因為要透過健保系統領藥，並且送藥到府，可以避免
 ### 8. 相關資料(介紹影片)
 https://youtu.be/lBqjCajunvI
 ### (證明文件)
-![image](https://github.com/lin-zhao-cheng/2021DSCproject/blob/main/8%E6%9E%970%E6%88%90.pdf)
-![image](https://github.com/lin-zhao-cheng/2021DSCproject/blob/main/%E5%89%B5%E6%96%B0%E7%89%B9%E5%88%A5%E7%8D%8E_8%E6%9E%970%E6%88%90.pdf)
-![image](https://github.com/lin-zhao-cheng/2021DSCproject/blob/main/%E7%AC%AC%E4%BA%8C%E5%90%8D_8%E6%9E%970%E6%88%90.pdf)
+(https://github.com/lin-zhao-cheng/2021DSCproject/blob/main/8%E6%9E%970%E6%88%90.pdf)
+(https://github.com/lin-zhao-cheng/2021DSCproject/blob/main/%E5%89%B5%E6%96%B0%E7%89%B9%E5%88%A5%E7%8D%8E_8%E6%9E%970%E6%88%90.pdf)
+(https://github.com/lin-zhao-cheng/2021DSCproject/blob/main/%E7%AC%AC%E4%BA%8C%E5%90%8D_8%E6%9E%970%E6%88%90.pdf)
