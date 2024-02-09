@@ -37,3 +37,5 @@ Solution：因為要透過健保系統領藥，並且送藥到府，可以避免
   >患有糖尿病需要長期使用血糖控制藥物的陳奶奶使用了「郵差藥師」的線上服務，從此之後不用再去台大醫院人擠人的領藥，只要預約好時間，即可不用出門在家領藥。
 ### 8. 相關資料(介紹影片)
 https://youtu.be/lBqjCajunvI
+### (證明文件)
+![image]([picture or gif url](https://github.com/lin-zhao-cheng/2021DSCproject/blob/main/8%E6%9E%970%E6%88%90.pdf)https://github.com/lin-zhao-cheng/2021DSCproject/blob/main/8%E6%9E%970%E6%88%90.pdf)
